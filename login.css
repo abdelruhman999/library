@@ -1,0 +1,150 @@
+body{
+    background-color: #45b09e;
+    display: flex;
+    justify-content: center;
+}
+.parent{
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
+    width:  500px;
+    height: 550px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+   
+  
+}
+/* ........parent....... */
+.logo {
+   
+   align-self: center;
+   line-height: 1.80;
+   
+}
+.logo a{
+    text-decoration: none;
+}
+/* ............img.................. */
+img{
+    max-width: fit-content;
+    border-radius: 50%;
+}
+/* .........paragraph................. */
+.test1 p{
+    color: #008a73;
+    line-height: 0;
+}
+/* ..........test2............. */
+.test2 {
+    line-height: 2.50;
+    margin-top: 30px;
+}
+input[type='email'],input[type='password'] {
+    text-align: end;
+    background-color: rgba(235, 224, 224, 0.651);
+    outline: none;
+    border: 1px solid hsla(0, 9%, 11%, 0.063);
+    border-radius: 5px;
+    padding-right: 10px;
+    width: 250px;
+    height: 25px;
+}
+
+.link input{
+    outline: none;
+    margin-top: 5px;
+    color: white;
+    background-color:#008a73 ;
+    width: 265px;
+    height: 33px;
+    border-radius: 5px;
+    
+}
+/* ...........او........... */
+.test3 {
+   line-height: 3;
+    display: flex;
+    align-items: center;
+    
+}
+   
+
+.line{
+    flex: 1;
+    height: 2px;
+    background-color: rgba(235, 224, 224, 0.651);
+}
+.text{
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* ......................... */
+.test4{
+    line-height: 0;
+
+}
+.test4 a{
+    color:#008a73 ;
+    line-height: 1;
+}
+/* ..........h,........... */
+.test5 {
+    line-height: 3;
+     display: flex;
+     align-items: center;
+     
+ }
+    
+ 
+ .line2{
+     flex: 1;
+     height: 2px;
+     background-color: rgba(235, 224, 224, 0.651);
+ }
+ .text2{
+     margin: 0 10px;
+     font-size: 16px;
+     font-weight: bold;
+ }
+ /* .................. */
+ .test6 input{
+    
+    color: white;
+    font-family: 'Noto Kufi Arabic','Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: large;
+    font-weight: 500;
+    cursor: grab;
+ }
+ .test6 .button2{
+     padding: 10px;
+ }
+ .button1 [type='button']{
+     background-color: #DB4437;
+     border-radius: 5px;
+     width: 300px;
+     height: 36px;
+ 
+ 
+ }
+ .button2 [type='button']{
+     background-color: #4267B2;
+     border-radius: 5px;
+     width: 300px;
+     height: 36px;
+ }
+ @media (max-width:375px) {
+    .parent{
+       
+        width:300px;
+       
+       
+       
+      
+    }
+ }

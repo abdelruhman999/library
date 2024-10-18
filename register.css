@@ -1,0 +1,199 @@
+body{
+    background-color: #45b09e;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
+    width:  500px;
+    height: 750px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   align-content: center;
+   
+  
+}
+img{
+    max-width: fit-content;
+    border-radius: 50%;
+}
+.test1{
+    line-height: 0.5;
+}
+.test2{
+   padding: 10px;
+}
+.test2 input{
+    background-color: rgba(235, 224, 224, 0.651);
+    border: 1px solid hsla(0, 9%, 11%, 0.063);
+    padding-right: 10px;
+    text-align: end;
+    outline: none;   
+    width: 300px;
+    height: 33px;
+    border-radius: 5px;
+}
+.test3 input{
+    background-color: rgba(235, 224, 224, 0.651);
+    border: 1px solid hsla(0, 9%, 11%, 0.063);
+    padding-right: 10px;
+    text-align: end;
+     outline: none;   
+    width: 300px;
+    height: 33px;
+    border-radius: 5px;
+    }
+    ul{
+       
+        width: 410px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 10px;
+    }
+    .test4 option{
+        background-color: rgba(235, 224, 224, 0.651);
+        border: 1px solid hsla(0, 9%, 11%, 0.063);
+    }
+    .test4 select{
+        background-color: rgba(235, 224, 224, 0.651);
+        border: 1px solid hsla(0, 9%, 11%, 0.063);
+        font-size: 16px;
+        font-weight: 700;
+        text-align: end;
+        width: 100px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .test5 select{
+        background-color: rgba(235, 224, 224, 0.651);
+        border: 1px solid hsla(0, 9%, 11%, 0.063);
+        text-align: end;
+        width: 320px;
+        height: 35px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .test6{
+        padding: 10px;
+    }
+    .test6 input{
+        background-color: rgba(235, 224, 224, 0.651);
+        border: 1px solid hsla(0, 9%, 11%, 0.063);
+        padding-right: 10px;
+        text-align: end;
+        width: 305px;
+        height: 33px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 400;
+        outline: none;
+    }
+    .test7 input{
+        outline: none;
+        width: 320px;
+        height: 46px;
+        font-family: 'Noto Kufi Arabic','Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-size: large;
+        font-weight: 500;
+        color: white;
+        background-color:#45b09e ;
+        border-radius: 4px;
+        cursor: grab;
+
+    }
+    .test8{
+    padding-top: 30px;
+    }
+    .test8 p{
+    font-size: small;
+    line-height: 0.5;
+    }
+    .test9 ,.test11 {
+        display: flex;
+    
+    }
+    .line{
+        flex: 1;
+        height: 2px;
+        background-color: rgba(235, 224, 224, 0.651);
+    }
+    .text{
+        margin: 5px 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .test10 a{
+        text-decoration: none;
+    }
+    .test12 input{
+        
+    color: white;
+    font-family: 'Noto Kufi Arabic','Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: large;
+    font-weight: 500;
+    cursor: grab;
+    }
+    .test12 .button2{
+        padding: 10px;
+    }
+    .button1 [type='button']{
+        background-color: #DB4437;
+        border-radius: 5px;
+        width: 300px;
+        height: 36px;
+
+
+    }
+    .button2 [type='button']{
+        background-color: #4267B2;
+        border-radius: 5px;
+        width: 300px;
+        height: 36px;
+    }
+    @media (max-width:375px) {
+        .container{
+            width:  300px;
+            height: 800px;
+            justify-content: center;
+           
+          
+        }
+        .test2{
+            padding: 0px;
+            padding-bottom: 10px;
+         }
+        ul{
+            width: 290px;
+            justify-content: end;
+        }
+        .test4 select{
+           
+            width: 105px;
+            height: 50px;
+            
+           
+        }
+        .test4{
+           margin-left: -17px;
+        }
+        .test6{
+            padding: 0px;
+            padding-top: 10px;
+        }
+        .test7 {
+           padding-top: 20px;
+    
+        }
+        .test12 .button2{
+            padding: 0px;
+            padding-top: 10px;
+        }
+    }

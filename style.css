@@ -1,0 +1,371 @@
+
+   @import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&family=Pacifico&display=swap');
+
+  
+   .parent{
+    
+   }
+ /* .............logo.............. */
+ .logo{
+  padding: 30px;
+  height: 150px;
+  text-align: end;
+ }
+ .logo img{
+  max-width: fit-content;
+  border-radius: 50%;
+ }
+ /* ............navbar.................... */
+
+ ul{
+ 
+  height:100px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #e8e8e8;
+  border-bottom:1px solid #e8e8e8;
+ 
+ }
+
+ .s img{
+
+  max-width: fit-content;
+  border-radius: 50%;
+ 
+ 
+ }
+ .s{
+  padding: 20px;
+  border-right: 1px solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+ }
+ li button{
+  width: 160px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-left: -30px;
+
+  }
+  .button1 {
+   
+    background-color: white;
+    
+    }
+    .button1 a{
+      color: #45b09e;
+    }
+    .button2 {
+      
+      background-color: #45b09e;
+      }
+      .button2 a{
+        color: white;
+      } 
+ ul a{
+  text-decoration: none;
+  font-size: 25px;
+  color: #333;
+ }
+ 
+ /* ..............مكتبة نونو................... */
+ .search-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.test1{
+  font-size: 30px;
+  padding-top: 100px;
+  height: 500px;
+  background-color: #45b09e;
+  color: white;
+  text-align: center;
+  line-height: 1.48;
+  
+}
+.test1 input{
+  outline: none;
+  font-size: 20px;
+  text-align: right;
+  height: 70px;
+  width: 900px;
+  border-radius: 30px;
+} 
+.search-container button {
+  outline: none;
+  padding: 10px;
+  font-size: 25px;
+  height: 70px;
+  width: 120px;
+  border-radius: 30px;
+  transform:translate(120px,0) ;
+}
+.three-button button{
+  color: white;
+  background-color: #45b09e;
+  margin-top: 40px;
+  font-size: large;
+  width: 150px;
+  height: 50px;
+}
+.three-button button:hover{
+  transform: translate(0,-10px);
+  
+  transition: all ease-in 1s;
+  cursor: grab;
+}
+/* ------------parent---------------------- */
+.test2{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(6,200px);
+  grid-template-rows: repeat(15,150px);
+  column-gap: 20px;
+  
+   
+}
+ /* ..............three-boks................. */
+.h{
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 2px black;
+  grid-column: 3/8;
+}
+.three-books ,.three-words{
+  font-size:x-large ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.three-books img{
+max-width: fit-content;
+}
+.three-words{
+  margin-top: -16px;
+}
+
+/* ---------books------------- */
+
+.book {
+
+  width: 890px;
+  padding-top: 50px;
+  display: flex;
+  flex-flow: row  wrap;
+  justify-content: center;
+  gap: 30px;
+  
+  
+}
+.book div{
+  padding: 20px;
+  height: 400px;
+  width: 150px;
+  background-color: white;
+  box-shadow: 0px 0px 2px black;
+  border-radius: 15px;
+  text-align: center;
+  text-wrap: wrap;
+ 
+}
+.book img{
+  margin-top: 20px;
+  max-width: fit-content;
+  border-radius: 10px;
+}
+.book p {
+  margin-top:-10px ;
+  font-size: 25px;
+}
+.book a{
+  font-size: larger;
+  color: black;
+  text-decoration: none;
+}
+.book a:hover{
+  
+  text-decoration: underline;
+}
+
+.book div:hover{
+  transform: translate(0px , -10px);
+  transition: all ease 1s;
+}
+/* ...........list................ */
+.list{
+  text-wrap: nowrap;
+  background-color: white;
+  box-shadow: 0px 0px 2px black;
+  grid-column:1/3 ;
+  grid-row: 1/-1;
+  overflow: hidden;
+}
+.list-links{
+  
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+ 
+}
+a{
+  color: black;
+}
+
+.list-links a{
+  
+    font-size: larger;
+    text-decoration: none;
+}
+ a span{
+  border-bottom:1px solid black;
+}
+.list-links p{
+  font-size: 25px;
+}
+.list-links h1 a:hover{
+  
+  
+  text-decoration: none;
+}
+.list-links a:hover{
+  
+  
+  text-decoration: underline;
+}
+/* ---------------- */
+@media  (max-width:375px)
+{
+  body{
+    overflow-x: hidden;
+  }
+  .test1{
+    font-size: 25px;
+    padding-top: 80px;
+   
+    
+    
+  }
+
+  ul{
+   
+   
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+   }
+   li button{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: -30px;
+  
+    }
+ 
+  .button1 {
+    margin: 10px;
+    transform: translate(0px,0px);
+  }
+  
+   .s ,.ss ,.list ,.l1 a,.l2 a,.l3{
+
+    display: none;
+   
+   }
+  
+ 
+  .logo{
+  
+    text-align: center;
+   }
+   .three-button button{
+    font-size: large;
+    width: 100px;
+    
+    
+  }
+  
+  .test1 input{
+    
+    margin-right: 20px;
+    font-size: medium;
+    height: 60px;
+    width: 700px;
+    
+  } 
+  .search-container button {
+    
+    font-size: large;
+    height: 60px;
+    width: 200px;
+    transform:translate(50px,0) ;
+  }
+  .test2{
+
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(15,150px);
+    justify-content: center;
+    column-gap: 20px;
+    
+     
+  }
+  .h{
+    align-self: center;
+    grid-column: 1/-1;
+    
+  }
+  .three-books ,.three-words{
+    font-size:large ;
+  }
+  .three-books img{
+    height: 50px;
+  max-width: fit-content;
+  }
+  .three-words{
+    margin-top: -16px;
+  }
+  .book {
+   
+    margin-left: -10px;
+    width: 365px;
+    padding-top: 15px;
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: start;
+    
+   
+    
+    
+  }
+  .book div{
+    padding: 20px;
+    height: 270px;
+    width: 120px;
+  
+   
+  }
+  .book img{
+    margin-top: 10px;
+    height: 160px;
+    max-width: fit-content;
+    
+  }
+  .book p {
+    font-size: small;
+  }
+  .book a{
+    font-size: small;
+    
+  }
+}
